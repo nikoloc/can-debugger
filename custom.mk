@@ -6,12 +6,12 @@
 
 # By extending `C_SOURCES` you can add your additional source files.
 C_SOURCES += \
-Core/Src/can.c \
+app/src/app.c \
+app/src/can.c \
 
 # By extending `C_INCLUDES` you can add directory paths for includes.
-# C_INCLUDES += \
-# -ICore/SomeOtherDirectory
-
+C_INCLUDES += \
+-Iapp/include
 
 # Other useful variables are listed bellow
 

@@ -10,10 +10,10 @@
 
 void
 test_send(void) {
-    printf("this is an uart test\r\n");
+    printf("this is an uart test\n");
 }
 
-static void
+void
 can_send(CAN_HandleTypeDef *handle, size_t size, uint8_t *msg) {
     assert(size < 8);
 
