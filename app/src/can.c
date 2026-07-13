@@ -14,6 +14,7 @@ uint8_t can_buffer[8] = {0};
 
 void
 can_send(CAN_HandleTypeDef *handle, uint32_t id, size_t size, uint8_t *msg) {
+    printf("sending message of size %d\n", (int)size);
     if(size > 8) {
         return;
     }
@@ -30,7 +31,11 @@ can_send(CAN_HandleTypeDef *handle, uint32_t id, size_t size, uint8_t *msg) {
     }
 
     uint32_t mailbox;
-    HAL_CAN_AddTxMessage(handle, &header, msg, &mailbox);
+    if(HAL_CAN_AddTxMessage(handle, &header, msg, &mailbox) == HAL_OK) {
+        printf("can message sent\n");
+    } else {
+        printf("can error\n");
+    }
 }
 
 void

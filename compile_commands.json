@@ -1,6 +1,6 @@
 [
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -31,7 +31,7 @@
   "file": "Core/Src/main.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -62,7 +62,7 @@
   "file": "Core/Src/stm32f0xx_it.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -93,7 +93,7 @@
   "file": "Core/Src/stm32f0xx_hal_msp.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -124,7 +124,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_can.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -155,7 +155,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -186,7 +186,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -217,7 +217,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -248,7 +248,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -279,7 +279,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -310,7 +310,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -341,7 +341,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -372,7 +372,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -403,7 +403,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -434,7 +434,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -465,7 +465,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -496,7 +496,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -527,7 +527,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -558,7 +558,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -589,7 +589,7 @@
   "file": "Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -620,7 +620,7 @@
   "file": "Core/Src/system_stm32f0xx.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -651,7 +651,7 @@
   "file": "Core/Src/sysmem.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -682,7 +682,7 @@
   "file": "Core/Src/syscalls.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -713,7 +713,7 @@
   "file": "app/src/app.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-c",
@@ -744,7 +744,7 @@
   "file": "app/src/can.c"
  },
  {
-  "directory": "/home/darko/projects/can-debugger",
+  "directory": "/home/darko/projects/can-debugger/stm",
   "arguments": [
    "arm-none-eabi-gcc",
    "-x",

@@ -33,12 +33,12 @@ app(void) {
 
             printf("can msg\n");
             for(size_t i = 0; i < 8; i++) {
-                printf("-> %" PRIu8 "\n", can_buffer[i]);
+                printf("-> %x\n", (int)can_buffer[i]);
             }
 
-            // TODO: uncomment this after the first part is tested
-            // uint16_t resp = 69;
-            // can_send(&hcan, 0x420, sizeof(resp), (uint8_t *)&resp);
+            uint8_t msg[2] = {0x12, 0x34};
+
+            can_send(&hcan, 69, 2, msg);
         }
     }
 }
