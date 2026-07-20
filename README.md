@@ -46,7 +46,7 @@ and, since the names are usually standardized, it will probably suffice to just
 call
 
 ```bash
-source b/env/unix.sh
+source b/env.sh
 ```
 
 For Windows, see notes in `fsra-build` and extend this guide after it has been tested.
